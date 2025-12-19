@@ -11,11 +11,11 @@ public class RockPaperScissors {
         System.out.println("======================================");
         
         while (true) {
-            System.out.print("Player 1 Choice: ");
+            System.out.print("Player 1 Choice : ");
             int p1 = input.nextInt();
             if (p1 == -1) break;
 
-            System.out.print("Player 2 Choice: ");
+            System.out.print("Player 2 Choice : ");
             int p2 = input.nextInt();
             if (p2 == -1) break;
             
